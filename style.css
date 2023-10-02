@@ -1,0 +1,41 @@
+body {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu2 li {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.sect1right, .sect1left {
+    display: flex;
+    flex-direction: row;
+}
