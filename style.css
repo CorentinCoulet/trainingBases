@@ -1,15 +1,42 @@
 body {
+    background: linear-gradient(130deg, #000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
     max-height: 100vh;
     overflow-y: auto;
+    color: var(--Gray-5, #E0E0E0);
+    font-family: Roboto;
 }
 
 ul {
     list-style: none;
 }
 
+.coucou {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+strong {
+    color: #70FF00;
+    font-family: Roboto;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.8px;
+}
+
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menus {
@@ -17,9 +44,16 @@ header {
     flex-direction: row;
 }
 
-.menu2 li {
+.menu1, .menu2 {
+    margin: 1.5vh;
+}
+
+.menu1 li, .menu2 li {
     display: flex;
     flex-direction: row;
+    padding: 0 20px;
+    margin-right: 10px;
+    align-items: center;
 }
 
 header ul {
@@ -37,5 +71,65 @@ header ul {
 
 .sect1right, .sect1left {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 0 5%;
+    margin-top: 2%;
+}
+
+.pnj {
+    border-radius: 45%;
+    background: #2D2D2D;
+    box-shadow: 0px 5px 34px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+.exp {
+    display: flex;
     flex-direction: row;
+}
+
+.projetTravail {
+    border-radius: 6px;
+    background: var(--Gray-2, #4F4F4F);
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    padding: 1px 60px;
+    margin: 5px;
+    font-family: Courier Prime;
+}
+
+.msgProjet {
+    color: var(--green, #70FF00);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.info {
+    width: 763px;
+    height: 265.073px;
+    flex-shrink: 0;
+    font-size: 29px;
+}
+
+em {
+    all: unset;
+    color: var(--Gray-3, #828282);
+}
+
+.contact {
+    border-radius: 13px;
+    border: 5px solid rgba(112, 255, 0, 0.55);
+}
+
+.skillsLang {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillsLang li {
+    margin-left: 15px;
+    margin-bottom: 20px;
 }
