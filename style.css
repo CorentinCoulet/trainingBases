@@ -10,18 +10,6 @@ ul {
     list-style: none;
 }
 
-.coucou {
-    position: absolute;
-    top: 10%;
-    right: 50%;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 strong {
     color: #70FF00;
     font-family: Roboto;
@@ -69,7 +57,7 @@ header ul {
     flex-direction: column;
 }
 
-.sect1right, .sect1left {
+.sect1right, .sect1left, .sect2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
@@ -136,7 +124,7 @@ header ul {
     margin-right: 5px;
 }
 
-.aboutMe {
+.aboutMe, .skills {
     color: var(--green, #70FF00);
     font-family: Roboto;
     font-size: 35px;
@@ -162,12 +150,19 @@ em {
     border: 5px solid rgba(112, 255, 0, 0.55);
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .skillsLang {
     display: flex;
     flex-wrap: wrap;
+    gap: 5%;
 }
 
 .skillsLang li {
     margin-left: 15px;
     margin-bottom: 20px;
+}
+
+.sect2 {
+    margin-top: 5%;
 }
